@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>
+        <reference name="content">
+            <block type="taras_faq/faq"  name="faq.random" before="content" template="taras_faq/random.phtml" />
+        </reference>
+    </cms_index_index>
+</layout>

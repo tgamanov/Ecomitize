@@ -1,0 +1,11 @@
+<?php $faq = $this->getActiveFaq()->getData() ?>
+
+<?php if ($faq): ?>
+    <?php $faq = $faq[array_rand($faq)] ?>
+    <hr />
+    <ul>
+        <li><?php echo "{$this->__('Question: ')} {$faq['question']}" ?></li>
+        <li><?php echo "{$this->__('Answer: ')} {$faq['answer']}" ?></li>
+    </ul>
+    <hr />
+<?php endif; ?>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<widgets>
+    <taras_faq type="taras_faq/widget" module="taras_faq">
+        <name>FAQ Widget</name>
+        <parameters>
+            <faq_settings>
+                <label>List of IDs</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </faq_settings>
+        </parameters>
+    </taras_faq>
+</widgets>
