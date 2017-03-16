@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Taras_Dynamic>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Taras_Dynamic>
+    </modules>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Taras_Dynamic>
+            <version>0.1.0</version>
+        </Taras_Dynamic>
+    </modules>
+    <global>
+        <models>
+            <taras_dynamic>
+                <class>Taras_Dynamic_Model</class>
+                <resourceModel>taras_dynamic_resource</resourceModel>
+            </taras_dynamic>
+        </models>
+        <resources>
+            <taras_dynamic_setup>
+                <setup>
+                    <module>Taras_Dynamic_setup</module>
+                </setup>
+            </taras_dynamic_setup>
+        </resources>
+    </global>
+</config>
